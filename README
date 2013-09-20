@@ -1,0 +1,4 @@
+Mini Search Engine
+
+The project implements a mini web search engine that ranks documents base on both query dependent and independent signals. For query dependent signal, we uses Cosine Similarity and Query LikelyHood algorithm. For query independent, we uses PageRank value and Number of Views.
+Also we created Inverted Occurrence index and Inverted Compressed index to improve performance.For the PageRank, we uses Hadoop MapReduce framework.
